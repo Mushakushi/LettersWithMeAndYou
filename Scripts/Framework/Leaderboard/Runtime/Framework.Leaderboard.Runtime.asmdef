@@ -1,0 +1,20 @@
+{
+    "name": "Framework.Leaderboard.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:227c69bc9d04d814f9933ce38b594aeb",
+        "GUID:fd29f7a0fd19a1142835dde883e67493",
+        "GUID:f82ce62532b642f09e898eede82323ac",
+        "GUID:b2c48f311f7fac74eb111c0d96649360",
+        "GUID:0056e90a88a71484daf1982d1a40c32d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

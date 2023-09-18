@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Leaderboard" src="project://database/Assets/Scripts/Framework/UI/Runtime/Menus/Leaderboard/Leaderboard.uxml?fileID=9197481963319205126&amp;guid=bd09ebec12081c84fa5e7d2e3729afbf&amp;type=3#Leaderboard" />
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Menus/Leaderboard/Leaderboard.uss?fileID=7433441132597879392&amp;guid=68c84989f23bb5447adc387910b1a273&amp;type=3#Leaderboard" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(64, 64, 64, 0.5); flex-direction: row-reverse;">
+        <ui:GroupBox style="width: 50%; height: 100%; align-items: center; justify-content: center;">
+            <ui:Instance template="Leaderboard" name="Leaderboard" style="width: 75%; height: 75%;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 50%; height: 100%;">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="paused" name="LabelAutoFit" style="height: 30%; width: 100%; -unity-text-align: middle-center;" />
+            <ui:GroupBox style="height: 70%; width: 100%; justify-content: center;">
+                <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="continue" name="continue-button" class="first-focused" style="height: 20%; width: 100%; -unity-text-align: upper-center; text-overflow: ellipsis; transition-property: position; transition-duration: 1s; transition-timing-function: ease-in; transition-delay: 0s;" />
+                <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="restart" name="restart-button" style="height: 20%; width: 100%; -unity-text-align: upper-center; transition-property: position; transition-duration: 1s; transition-timing-function: ease-in;" />
+                <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="title screen" name="to-title-screen-button" class="scene-load-button" style="height: 20%; width: 100%; -unity-text-align: upper-center; transition-property: position; transition-duration: 1s; transition-timing-function: ease-in;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

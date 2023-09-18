@@ -1,0 +1,19 @@
+{
+    "name": "Framework.SceneManagement.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:caca889fed6088d40b22c2d7e2909c31",
+        "GUID:fd29f7a0fd19a1142835dde883e67493",
+        "GUID:34934ae940984864385cebbcdf98295d",
+        "GUID:5803ea6584de40a1873193a3fe88b672"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

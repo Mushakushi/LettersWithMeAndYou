@@ -1,0 +1,39 @@
+* {
+    -unity-font-definition: resource('Fonts & Materials/NT FabulousSDF');
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+ButtonAutoFit {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(195, 195, 195);
+}
+
+ButtonAutoFit:focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.input-icon {
+}
+
+.first-focused {
+}
+
+.menu-connection-button {
+}
+
+.scene-load-button {
+}

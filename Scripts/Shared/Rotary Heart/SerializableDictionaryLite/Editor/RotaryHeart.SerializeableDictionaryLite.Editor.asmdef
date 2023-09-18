@@ -1,0 +1,19 @@
+{
+    "name": "RotaryHeart.SerializeableDictionaryLite.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:04c16d9d168fb1f4e8a58f5a30504e6a",
+        "GUID:10ebc479cc081044d87faf0f7bd87988"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

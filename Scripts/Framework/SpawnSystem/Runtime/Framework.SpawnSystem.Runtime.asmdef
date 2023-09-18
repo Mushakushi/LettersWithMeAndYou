@@ -1,0 +1,18 @@
+{
+    "name": "Framework.SpawnSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f16d521ff528d004abc6c60817320c4f",
+        "GUID:4caced0ba308465a8aead0b14be45d02",
+        "GUID:68fc777d4fff4f4d91af7905d4888450"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

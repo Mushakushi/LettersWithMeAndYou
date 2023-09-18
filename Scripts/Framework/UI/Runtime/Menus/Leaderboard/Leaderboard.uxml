@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Menus/Leaderboard/Leaderboard.uss?fileID=7433441132597879392&amp;guid=68c84989f23bb5447adc387910b1a273&amp;type=3#Leaderboard" />
+    <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Our Leaderboard" style="width: 100%; height: 13%;" />
+    <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="completion time" enable-rich-text="true" style="width: 100%; height: 7%; background-color: rgba(128, 128, 128, 0.75); padding-bottom: 0; -unity-text-align: middle-left; padding-left: 20%;" />
+    <ui:GroupBox style="height: 80%; width: 100%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="&lt;color=#ffd700&gt;1st&lt;/color&gt;" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="1" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="&lt;color=#5A5A5A&gt;2nd&lt;/color&gt;" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="2" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="&lt;color=#CD7F32&gt;3rd&lt;/color&gt;" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="3" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="4th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="4" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="5th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="5" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="6th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="6" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="7th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="7" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="8th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="8" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="9th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="9" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; width: 100%; flex-direction: row; background-color: rgba(255, 255, 255, 0.5);">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="10th" style="width: 20%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="-" name="10" class="entry" style="width: 80%; height: 100%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;); -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

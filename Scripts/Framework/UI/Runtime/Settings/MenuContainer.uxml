@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <ui:GroupBox name="main-wrapper" style="height: 90%; width: 100%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+    <ui:GroupBox style="width: 100%; height: 10%; justify-content: flex-end; align-self: center; background-color: rgb(238, 238, 238); padding-left: 1%; padding-right: 1%; padding-top: 1%; padding-bottom: 1%; flex-direction: row;">
+        <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" name="player-label" text="player 1:" style="height: 100%; width: 20%; -unity-text-align: middle-left; padding-left: 1%; color: rgb(0, 0, 0);" />
+        <ui:VisualElement name="move-context-icon" class="input-icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/InputIcons/Others/Controller_Disconnected.png?fileID=2800000&amp;guid=f4448b432c3ab2b44a279d2501b8bbbc&amp;type=3#Controller_Disconnected&apos;); width: 5%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+        <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" name="LabelAutoFit" text="move" style="height: 100%; width: 20%; -unity-text-align: middle-left; padding-left: 1%; color: rgb(0, 0, 0);" />
+        <ui:VisualElement name="interact-context-icon" class="input-icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/InputIcons/Others/Controller_Disconnected.png?fileID=2800000&amp;guid=f4448b432c3ab2b44a279d2501b8bbbc&amp;type=3#Controller_Disconnected&apos;); width: 5%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+        <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" name="LabelAutoFit" text="interact" style="height: 100%; width: 50%; -unity-text-align: middle-left; padding-left: 1%; color: rgb(0, 0, 0);" />
+    </ui:GroupBox>
+</ui:UXML>

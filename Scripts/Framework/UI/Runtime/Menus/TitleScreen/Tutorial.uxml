@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Tutorial" style="height: 20%;" />
+    <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Cherish the connection &#10;of brother and sister. &#10;&#10;Push carriages to spell a word.&#10;The controls are shown below apply&#10;to both gameplay and UI." style="height: 60%;" />
+    <Mushakushi.UIToolkit.Runtime.ButtonAutoFit name="to-main-menu-button" text="back" class="first-focused menu-connection-button" style="height: 20%;" />
+</ui:UXML>

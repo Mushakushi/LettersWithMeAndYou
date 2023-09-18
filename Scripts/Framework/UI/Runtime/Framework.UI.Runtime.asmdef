@@ -1,0 +1,26 @@
+{
+    "name": "Framework.UI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:f16d521ff528d004abc6c60817320c4f",
+        "GUID:34934ae940984864385cebbcdf98295d",
+        "GUID:227c69bc9d04d814f9933ce38b594aeb",
+        "GUID:5803ea6584de40a1873193a3fe88b672",
+        "GUID:04c16d9d168fb1f4e8a58f5a30504e6a",
+        "GUID:49b49c76ee64f6b41bf28ef951cb0e50",
+        "GUID:caca889fed6088d40b22c2d7e2909c31",
+        "GUID:fd29f7a0fd19a1142835dde883e67493",
+        "GUID:4caced0ba308465a8aead0b14be45d02",
+        "GUID:f82ce62532b642f09e898eede82323ac"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

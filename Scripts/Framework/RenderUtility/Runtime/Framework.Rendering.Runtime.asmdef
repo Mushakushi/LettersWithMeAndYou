@@ -1,0 +1,16 @@
+{
+    "name": "Framework.Rendering.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f16d521ff528d004abc6c60817320c4f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Framework.Railways.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:21d1eb854b91ade49bc69a263d12bee2",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f16d521ff528d004abc6c60817320c4f",
+        "GUID:70c0ac86613e4aa7a0eb10eff02c2c6a",
+        "GUID:5803ea6584de40a1873193a3fe88b672",
+        "GUID:49b49c76ee64f6b41bf28ef951cb0e50",
+        "GUID:a3d198adfd57700469c5da5ab3e0c460",
+        "GUID:0056e90a88a71484daf1982d1a40c32d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

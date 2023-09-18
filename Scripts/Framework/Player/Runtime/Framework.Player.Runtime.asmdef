@@ -1,0 +1,24 @@
+{
+    "name": "Framework.Player.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:f16d521ff528d004abc6c60817320c4f",
+        "GUID:5803ea6584de40a1873193a3fe88b672",
+        "GUID:0056e90a88a71484daf1982d1a40c32d",
+        "GUID:fd29f7a0fd19a1142835dde883e67493",
+        "GUID:4caced0ba308465a8aead0b14be45d02",
+        "GUID:f82ce62532b642f09e898eede82323ac",
+        "GUID:b2c48f311f7fac74eb111c0d96649360"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

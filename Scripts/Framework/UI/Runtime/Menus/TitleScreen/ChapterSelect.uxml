@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Chapter Select" style="height: 30%; padding-top: 2%; padding-bottom: 2%;" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 70%; width: 100%; align-items: center; justify-content: center;">
+        <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="Chapter 1" name="chapter-1-button" class="first-focused scene-load-button" style="height: 20%; width: 100%;" />
+        <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="Chapter 2" name="chapter-2-button" class="scene-load-button" style="height: 20%; width: 100%;" />
+        <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="Chapter 3" name="chapter-3-button" class="scene-load-button" style="height: 20%; width: 100%;" />
+        <Mushakushi.UIToolkit.Runtime.ButtonAutoFit name="to-main-menu-button" text="back" class="menu-connection-button" style="height: 20%; width: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

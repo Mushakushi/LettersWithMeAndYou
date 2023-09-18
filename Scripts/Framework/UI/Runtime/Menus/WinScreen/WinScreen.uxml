@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Leaderboard" src="project://database/Assets/Scripts/Framework/UI/Runtime/Menus/Leaderboard/Leaderboard.uxml?fileID=9197481963319205126&amp;guid=bd09ebec12081c84fa5e7d2e3729afbf&amp;type=3#Leaderboard" />
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Settings/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=dd2b667a20018de4fb73e149726e054a&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/Framework/UI/Runtime/Menus/Leaderboard/Leaderboard.uss?fileID=7433441132597879392&amp;guid=68c84989f23bb5447adc387910b1a273&amp;type=3#Leaderboard" />
+    <ui:GroupBox style="height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.8);">
+        <ui:GroupBox style="width: 100%; height: 20%; align-items: center; justify-content: center;">
+            <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Level Complete" name="LabelAutoFit" style="height: 75%; width: 100%;" />
+        </ui:GroupBox>
+        <Mushakushi.UIToolkit.Runtime.LabelAutoFit tabindex="-1" text="Congrats! We did it in ..." name="message" class="message" style="width: 100%; height: 5%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/FriendlyscribblesSDF&apos;);" />
+        <ui:GroupBox style="height: 60%; width: 100%; align-items: center; justify-content: center;">
+            <ui:Instance template="Leaderboard" name="Leaderboard" style="width: 90%; height: 90%;" />
+        </ui:GroupBox>
+        <Mushakushi.UIToolkit.Runtime.ButtonAutoFit text="Title Screen" name="titlescreen" class="first-focused scene-load-button" style="width: 100%; height: 15%;" />
+    </ui:GroupBox>
+</ui:UXML>

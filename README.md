@@ -1,11 +1,7 @@
 # Letters With Me And You
 ![image](https://github.com/Mushakushi/LettersWithMeAndYou/assets/60948236/a03bd618-c11b-4863-a53f-7f311f81dfc7)
 
-TSA 2023 Canceled Remake of Nationals Game
-
-## Installation
-
-Run ```git clone https://github.com/Mushakushi/LettersWithMeAndYou.git``` and open the project with Unity 2022.2.11f1. From there, run the project in the editor.
+Source code of canceled national TSA 2023 entry. The "full" game can be played on Windows in the releases tab.
 
 ## Controls
 

@@ -25,6 +25,8 @@ Escape - Opens the pause menu; only Player 1 can control the pause menu.
   - A wonderful water shader. 
 - Quick Outline from Chris Nolet: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
   - Used to outline the carriages.
+- Speed Tree 8 from zeroyao: https://forum.unity.com/threads/case-1227083-tree-nature-soft-occlusion-shader-in-urp.825825/#post-6220065
+  - Used to support the Tree Nature/ Soft Occlusion shader in Unity’s URP with slight modifications to prevent constant console errors. 
 
 ---
 *the following assets were used but are not included in this repository:*
